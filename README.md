@@ -26,6 +26,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ## The Exercise
 
 See [User Requirements](./user_requirements/user_requirements.md)
-
-
-# group-exercise-react-props-state-2
