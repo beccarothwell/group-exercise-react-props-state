@@ -1,4 +1,4 @@
-# Getting Started 
+# Getting Started
 
 ## Fork this repo to your GitHub
 
@@ -25,4 +25,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## The Exercise
 
-See [User Requirements](./user_requirements/user_requirements.md)
+❗ Running `npm start` reveals that this website is unfinished 😐
+
+👉 Explore the codebase, particularly the `components` folder and `App.tsx`.
+
+👉 There are a number of comments which help explain some of the React syntax.
+
+👉 Your goal is to implement all of the [User Requirements](./user_requirements/user_requirements.md) found in `user_requirements.md`.
