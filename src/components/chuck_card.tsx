@@ -6,7 +6,7 @@ const ChuckCard = () =>
 	// 💡 As a result, sometimes it is useful to wrap components in Fragments like this:
 	<>
 
-	{/* 💡 We can insert JavaScript into our JSX using curly braces like the ones below */}
+	{/* 💡 We can insert JavaScript into our JSX using curly braces like the ones below in the h2 */}
 		<h2>{ }</h2>
 
 		<img src={'Chuck image here!'} alt='A handsome man' />
