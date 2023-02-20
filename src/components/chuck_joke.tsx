@@ -2,11 +2,8 @@ interface ChuckJokeProps {
 
 }
 
-const ChuckJoke: React.FC<ChuckJokeProps> = () => {
+const ChuckJoke: React.FC<ChuckJokeProps> = () => <p></p>
 
-	return (
-		<p></p>
-	)
-}
+
 
 export default ChuckJoke;
