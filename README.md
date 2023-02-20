@@ -2,11 +2,11 @@
 
 An in-session group/paired activity to get practicing React!
 
-## The Exercise
+# The Exercise
 
 See below for how to get started. 👇
 
-❗ Running `npm start` reveals that this website is unfinished 😐
+❗ Running `npm install` then `npm start` reveals that this website is unfinished 😐
 
 👉 Explore the codebase, particularly the `components` folder and `App.tsx`.
 
