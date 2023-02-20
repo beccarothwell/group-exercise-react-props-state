@@ -1,3 +1,19 @@
+# React Props & State with Chuck Norris
+
+An in-session group/paired activity to get practicing React!
+
+## The Exercise
+
+See below for how to get started. 👇
+
+❗ Running `npm start` reveals that this website is unfinished 😐
+
+👉 Explore the codebase, particularly the `components` folder and `App.tsx`.
+
+👉 There are a number of comments which help explain some of the React syntax.
+
+👉 Your mission is to implement all of the [User Requirements](./user_requirements/user_requirements.md) found in `user_requirements.md`.
+
 # Getting Started
 
 ## Fork this repo to your GitHub
@@ -23,12 +39,4 @@ OR
 To run the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## The Exercise
 
-❗ Running `npm start` reveals that this website is unfinished 😐
-
-👉 Explore the codebase, particularly the `components` folder and `App.tsx`.
-
-👉 There are a number of comments which help explain some of the React syntax.
-
-👉 Your goal is to implement all of the [User Requirements](./user_requirements/user_requirements.md) found in `user_requirements.md`.

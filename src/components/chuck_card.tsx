@@ -5,6 +5,8 @@ const ChuckCard = () =>
 	// 💡 This weird-looking `<>` thing is a "Fragment". Each component must have exactly one child.
 	// 💡 As a result, sometimes it is useful to wrap components in Fragments like this:
 	<>
+
+	{/* 💡 We can insert JavaScript into our JSX using curly braces like the ones below */}
 		<h2>{ }</h2>
 
 		<img src={'Chuck image here!'} alt='A handsome man' />
