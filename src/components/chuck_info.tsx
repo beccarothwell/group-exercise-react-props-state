@@ -1,7 +1,7 @@
 const ChuckInfo = () => {
 
-	// 💡 Note that this component, like <ChuckCard /> uses an "explicit return"
-	// Compare to <ChuckJoke/> which just returns the JSX directly like this:
+	// 💡 Note that this component, like the <ChuckCard />, uses an "explicit return"
+	// Compare this to <ChuckJoke/> which just returns the JSX directly like this:
 	// const ChuckJoke = () => <>... some JSX Here...</>;
 
 	// Instead, this component uses curly braces `{}` and a `return` statement
