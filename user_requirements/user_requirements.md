@@ -12,6 +12,12 @@ His requirements are as follow:
 
 - In `chuck_card.tsx` the `<h2>` must display Chucks greeting (which is included in useState in `App.tsx`). To display Chucks greeting pass it down to `<ChuckCard />` through props. 
 
+💡 Don't forget to add what type `greeting` is to your ChuckCardProps interface
+
+💡 Note: the ChuckCard parameters have helpfully included two curly braces for destructuring {} your greeting. Have a play around and see what happens if you don't add these curly braces. How would you access the property without destructuring?
+
+This article, point number [3. React props can be accessed as an object or destructured](https://rqhxdq-com.ngontinh24.com/article/react-props-cheatsheet-10-patterns-you-should-know#toc-3) shows you how! 
+
 - In `chuck_card.tsx` the `<img/>` element must display a picture of Chuck. Replace the string "Chuck image here!" with the ChuckImage object (no quote marks required).
 
 ## Requirement 2 - Chuck Info ℹ️
@@ -24,13 +30,22 @@ His requirements are as follow:
 
 - Pass the joke down to `<ChuckJokes />` using props 
 
+💡 Hint: consider what type this should be, refer to `joke.ts`
+
+## Requirement 4 - No one warns Chuck Norris, Chuck Norris warns the browser!
+
+- The browser console must *not* contain warnings, especially ones like this one:
+
+"Warning: Each child in a list should have a unique 'key' prop."
+
+Using the joke `id` and the React documentation around [Rendering Lists](https://beta.reactjs.org/learn/rendering-lists#keeping-list-items-in-order-with-key) make the warning disappear
+
+
 ## Extension 🔥
 
 - Underneath Jokes, create a heading with the text "Filtered Jokes: "
 
 - Create a variable called `const filteredJokes` and assign some logic to it that filters jokes based on whether they have an id of 3. 
-
-Hint: remember to consider what type this should be, refer to `joke.ts`
 
 - Beneath the heading "Filtered Jokes: " map over filtered jokes. Only the joke with the id of 3 should appear. 
 
