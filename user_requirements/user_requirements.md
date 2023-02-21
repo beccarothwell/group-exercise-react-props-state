@@ -38,7 +38,7 @@ This article, point number [3. React props can be accessed as an object or destr
 
 "Warning: Each child in a list should have a unique 'key' prop."
 
-Using the joke `id` and the React documentation around [Rendering Lists](https://beta.reactjs.org/learn/rendering-lists#keeping-list-items-in-order-with-key) make the warning disappear
+- Using the joke `id` and the React documentation around [Rendering Lists](https://beta.reactjs.org/learn/rendering-lists#keeping-list-items-in-order-with-key) make the warning disappear
 
 
 ## Extension 🔥
