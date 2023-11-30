@@ -3,6 +3,7 @@ import { useState } from "react";
 import ChuckCard from "./components/chuck_card";
 import ChuckInfo from "./components/chuck_info";
 import ChuckJoke from "./components/chuck_joke";
+import ChuckJokes from "./components/chuck_jokes";
 import Joke from "./joke";
 
 function App() {
@@ -34,6 +35,8 @@ function App() {
     <ChuckJoke key={joke.id} joke={joke.joke} />
   ));
 
+  const filteredJokes = jokes.filter((joke) => joke.id === 3);
+
   return (
     <div className="App">
       <h1>React props and state</h1>
@@ -43,7 +46,10 @@ function App() {
       <ChuckInfo whalesSaved={whalesSaved} roundHouseKicks={roundHouseKicks} />
 
       <h2>Jokes: </h2>
-      <>{chuckJokes}</>
+      <ChuckJokes jokes={jokes} />
+
+      <h2>Filtered Jokes: </h2>
+      <ChuckJokes jokes={filteredJokes} />
     </div>
   );
 }
